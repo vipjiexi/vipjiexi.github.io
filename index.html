@@ -266,26 +266,7 @@
 <a class="rollbar-top" href="#top"></a>
 </div>
 </section>
-<script type="text/javascript">$(function() {
-				var winHeight = $(document).scrollTop();
 
-				$(window).scroll(function() {
-					var scrollY = $(document).scrollTop(); // 获取垂直滚动的距离，即滚动了多少
-					if (scrollY > 200) { //如果滚动距离大于550px则隐藏，否则删除隐藏类
-						$('.left_ads').addClass('hiddened');
-					} else {
-						$('.left_ads').removeClass('hiddened');
-					}
-
-					if (scrollY > winHeight) { //如果没滚动到顶部，删除显示类，否则添加显示类
-						$('.left_ads').removeClass('showed');
-					} else {
-						$('.left_ads').addClass('showed');
-					}
-
-				});
-			});
-			</script>
 <script type="text/javascript" src="js/tv-beipy.js"></script>
 </body>
 </html>
