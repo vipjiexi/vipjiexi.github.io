@@ -262,8 +262,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('https://www.vipjiexi.cc/fonts/glyphicons-halflings-regular.eot');
-  src: url('https://www.vipjiexi.cc/fonts/glyphicons-halflings-regular.eot?') format('embedded-opentype'), url('https://www.vipjiexi.cc/fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('https://www.vipjiexi.cc/fonts/glyphicons-halflings-regular.woff') format('woff'), url('https://www.vipjiexi.cc/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('https://www.vipjiexi.cc/fonts/glyphicons-halflings-regular.svg') format('svg');
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -6753,3 +6753,4 @@ button.close {
     display: none !important;
   }
 }
+/*# sourceMappingURL=bootstrap.css.map */
