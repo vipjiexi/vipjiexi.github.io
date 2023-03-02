@@ -47,23 +47,18 @@ function openWin1(a)
 		    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) 
 			 {}
             else
-			 { window.open('play.html?jk=https://jx.bozrc.com:4433/player/?url='+a),'_blank';  }
+			 { window.open('play.html?jk=https://jx.aidouer.net/?url='+a),'_blank';  }
          }
 
 //公告
  function gonggao()
  {
-document.writeln("<span class=\"yanse1\">公告：</span><span>若播放不了，</span><span class=\"yanse1\">请用其他接口播放！</span>");
+document.writeln("<span class=\"yanse1\">公告：</span><a href=\"fangfa.html\" class=\"huang8\">免费观看vip会员影视的方法，点击进入</a>");
  }
  //公告2
  function gonggao2()
  {
 document.writeln("<span class=\"yanse2\">公告：</span><span>若播放不了，</span><span class=\"yanse2\">请用其他接口播放！</span>");
- }
- //公告3
- function gonggao3()
- {
-document.writeln("<span class=\"huang\">温馨提示：</span><span>已关闭手机观看功能，</span><span class=\"huang\">请用电脑观看!</span>");
  }
 //播放页面播放函数
 function GetRequest3() 
