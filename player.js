@@ -13,5 +13,4 @@ document.writeln("<option value=\"https://jx.yparse.com/index.php?url=\">VIP接�
 document.writeln("<option value=\"https://www.8090g.cn/jiexi/?url=\">VIP接口11</option>");
 document.writeln("<option value=\"https://www.8090.la/8090/?url=\">VIP接口12</option>");
 document.writeln("<option value=\"https://dm.xmflv.com:4433/?url=\">VIP接口13</option> ");
-document.writeln("<option value=\"https://jx.qqwtt.com/?url=\">VIP解析口(稳定)</option> ");
  }
