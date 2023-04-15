@@ -106,7 +106,7 @@ width: 200px;
 }
 #sss img{display:none;}
 #daohang {height:120px;}
-#kz{display:none;}
+kz{display:none;}
 #bofang{height:169px;background:url("../../../images/bg1.jpg") center no-repeat;}
 #kj{height:150px;}
 .container {
@@ -187,4 +187,4 @@ margin-top: 0;
 .dede_pages{float:none;overflow:hidden;text-align:center;}
 .dede_pages ul{margin:0px auto;float:none;clear:both;overflow:hidden;text-align:center;white-space:nowrap;}
 .dede_pages ul li, .dede_pages ul li a{float:none;display:inline;}
-.icon-top { width: 40px; height: 40px; display: block; background: url(/images/top.png) no-repeat center #2c303b; right: 80px; bottom: 10%; position: fixed }
+.icon-top { width: 40px; height: 40px; display: block; background: url(../../../images/top.png) no-repeat center #2c303b; right: 80px; bottom: 10%; position: fixed }
