@@ -88,3 +88,4 @@ function GetRequest2()
 			 document.getElementById("gher").src =a+b;      
         } 
 
+
