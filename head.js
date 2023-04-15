@@ -39,6 +39,7 @@ function openWin()
          {   
 		     var a=document.getElementById("jk").value; 
              var b=document.getElementById("url").value; 
+			 b=b.split("?")[0];
              window.open('play.html?jk='+a+b),'_blank';  
          }
 
@@ -53,7 +54,7 @@ function openWin1(a)
 //公告
  function gonggao()
  {
-document.writeln("<span class=\"yanse1\">公告：</span><a href=\"fangfa.html\" class=\"huang8\">免费观看vip会员影视的方法，点击进入</a>");
+document.writeln("<span class=\"yanse1\">公告：</span>VIP接口4月8日更新,更多接口选择！");
  }
  //公告2
  function gonggao2()
@@ -86,3 +87,4 @@ function GetRequest2()
 			 var b=document.getElementById("url").value;
 			 document.getElementById("gher").src =a+b;      
         } 
+

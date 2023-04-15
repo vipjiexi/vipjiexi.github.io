@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>美女视频-牛嘎</title>
+<meta name="keywords" content="美女热舞视频,小姐姐视频,直播间跳舞视频,美女街拍视频">
+<meta name="description" content="珍藏上万条美女热舞视频，小姐姐直播间跳舞视频，美女街拍视频，欢迎欣赏。">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<link href="templets/default/style/dedecms.css" rel="stylesheet" media="screen" type="text/css">
+<style>
+button{border:0;}
+#main {
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#player {
+    width: 100%;
+    height: auto;
+    max-height: 70%;
+	margin-top:-160px;
+}
+
+#buttons {
+    height: 60px;
+    padding: 10px;
+	margin-top:-160px;
+	text-align:center;
+}
+
+#switch,
+#next {
+    background: linear-gradient(to bottom, #fe9205,#fe9205);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    height: 30px;
+    padding: 0px 20px;
+    margin: 0px 5px;
+    border-radius: 5px;
+}
+</style>
+<script type="text/javascript" src="head.js"></script>
+</head>
+<body>
+<div class="heibeijing daohang" id="daohang"> 
+  <div class="container" id="sss"> <a href=""><img src="images/logo.png" alt="logo" class="juzhong"></a>
+<span class="dh"><a href="" class="huang7">解析首页</a></span> <span class="dh"><a href="duan.html" class="huang7">美女视频</a></span> <span class="dh"><a href="https://www.baidu.com" target="_blank" class="huang7">百度搜索</a></span> <span class="dh"><a href="https://www.so.com" target="_blank" class="huang7">360搜索</a></span> <span class="dh"><a href="https://cn.bing.com" target="_blank" class="huang7">必应中国</a></span> <span class="dh"><a href="javascript:void(0)" onclick="addFavorite22()" class="huang8">收藏网址</a></span>
+  </div>
+</div>
+
+   <section id="main">
+        <video id="player" src="" controls="" webkit-playsinline="" playsinline=""></video>
+    </section>
+    <section id="buttons">
+        <button id="switch">连续: 开</button>
+        <button id="next">下一个</button>
+    </section>
+<div class="clear"></div>
+<div class="bottom-footer"> 
+    <p class="xiaozi">本站不进行任何资源存储，只提供影视检索,仅供学习交流!</p>
+    <p class="xiaozi"><img src="images/logo1.png" alt="logo" class="juzhong"> Copyright &copy; <a href="index.html">视频解析</a> All rights reserved.</p>
+</div>
+<script type="text/javascript">
+    (function (window, document) {
+        if (top != self) {
+            window.top.location.replace(self.location.href);
+        }
+        var get = function (id) {
+            return document.getElementById(id);
+        }
+        var bind = function (element, event, callback) {
+            return element.addEventListener(event, callback);
+        }
+        var auto = true;
+        var player = get('player');
+        var randomm = function () {
+            player.src = 'http://v.nrzj.vip/video.php?_t=' + Math.random();
+            player.play();
+        }
+        bind(get('next'), 'click', randomm);
+        bind(player, 'error', function () {
+            randomm();
+        });
+        bind(get('switch'), 'click', function () {
+            auto = !auto;
+            this.innerText = '连续: ' + (auto ? '开' : '关');
+        });
+        bind(player, 'ended', function () {
+            if (auto) randomm();
+        });
+    })(window, document);
+
+</script>
+<script type="text/javascript" src="foot.js"></script>
+</body>
+</html>
