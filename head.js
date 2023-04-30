@@ -54,7 +54,7 @@ function openWin1(a)
 //公告
  function gonggao()
  {
-document.writeln("<span class=\"yanse1\">公告：</span>VIP接口4月16日更新,更多接口选择！");
+document.writeln("<span class=\"yanse1\">公告：</span>VIP接口5月1日更新,更多接口选择！");
  }
  //公告2
  function gonggao2()
